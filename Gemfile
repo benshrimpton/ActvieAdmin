@@ -26,7 +26,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # PROJECT SPECIFIC GEMS
 gem 'activeadmin', github: 'activeadmin'
-gem "twitter-bootstrap-rails"
+gem 'bootstrap-sass', '~> 3.3.5'
+gem 'devise'
+gem 'active_skin'
 
 
 
@@ -40,6 +42,7 @@ gem "twitter-bootstrap-rails"
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
+  gem "better_errors"
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 

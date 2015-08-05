@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :posts
+
   ActiveAdmin.routes(self)
   resources :interviews
 
